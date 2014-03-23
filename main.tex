@@ -1,25 +1,11 @@
 % -*- TeX-engine: xetex; TeX-PDF-mode: t -*-
 
-% Тут используется класс, установленный на сервере Papeeria. На случай, если
-% текст понадобится редактировать где-то в другом месте, рядом лежит файл matmex-diploma-custom.cls
-% который в момент своего создания был идентичен классу, установленному на сервере.
-% Для того, чтобы им воспользоваться, замените matmex-diploma на matmex-diploma-custom
-% Если вы работаете исключительно в Papeeria то мы настоятельно рекомендуем пользоваться
-% классом matmex-diploma, поскольку он будет автоматически обновляться по мере внесения корректив
-%
 \documentclass{matmex-diploma-custom}
 \begin{document}
-% Год, город, название университета и факультета предопределены,
-% но можно и поменять.
-% Если англоязычная титульная страница не нужна, то ее можно просто удалить.
+
 \filltitle{ru}{
     chair              = {Кафедра Системного Программирования},
     title              = {Анализ эмоциональной окраски сообщений в микроблогах с помощью вероятностных моделей},
-    % Здесь указывается тип работы. Возможные значения:
-    %   coursework - Курсовая работа
-    %   diploma - Диплом специалиста
-    %   master - Диплом магистра
-    %   bachelor - Диплом бакалавра
     type               = {diploma},
     position           = {студенки},
     group              = 545,
@@ -35,9 +21,10 @@
 %   city               = {Санкт-Петербург},
    year               = {2014}
 }
+
 \filltitle{en}{
     chair              = {Chair of The Meaning of Life},
-    title              = {Empty subset as closed set},
+    title = {A probabilistic models for sentiment analysis of microblogging data},
     author             = {Ekaterina Lebedeva},
     supervisorPosition = { },
     supervisor         = {Ekaterina Tuzova},
