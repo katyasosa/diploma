@@ -12,7 +12,8 @@
 %% выбрать Unicode шрифт в котором есть кириллические глифы. Ниже
 %% основным шрифтом выбирается Unicode версия шрифта Computer Modern с заcечками
 \usepackage{fontspec}
-\setmainfont[Mapping=tex-text]{Times New Roman}
+\setmainfont[Mapping=tex-text,Ligatures=TeX]{Times New Roman}
+\newfontfamily{\cyrillicfonttt}{Times New Roman}
 
 %% В XeLaTex заменой известного пакета babel является пакет polyglossia.
 %% Теперь у нас будут переносы слов
@@ -20,7 +21,7 @@
 \setdefaultlanguage{russian}
 
 %% Поля
-\usepackage[a4paper,includeheadfoot,top=0mm,bottom=40mm,left=30mm,right=15mm]{geometry}
+\usepackage[a4paper,includeheadfoot,top=20mm,bottom=20mm,left=30mm,right=15mm]{geometry}
 
 %% Отступ в первом абзаце
 \usepackage{indentfirst}
