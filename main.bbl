@@ -1,0 +1,80 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\selectlanguage{#1}\fi}
+\providecommand*{\href}[2]{{\small #2}}
+\providecommand*{\url}[1]{{\small #1}}
+\providecommand*{\BibUrl}[1]{\url{#1}}
+\providecommand{\BibAnnote}[1]{}
+\providecommand*{\BibEmph}[1]{#1}
+\ProvideTextCommandDefault{\cyrdash}{\hbox to.8em{--\hss--}}
+\providecommand*{\BibDash}{\ifdim\lastskip>0pt\unskip\nobreak\hskip.2em\fi
+\cyrdash\hskip.2em\ignorespaces}
+
+\bibitem{go2009twitter}
+\selectlanguageifdefined{english}
+\BibEmph{Go~Alec, Bhayani~Richa, Huang~Lei}. Twitter sentiment classification
+  using distant supervision~// \BibEmph{CS224N Project Report, Stanford}.
+  \BibDash
+\newblock 2009. \BibDash
+\newblock P.~1--12.
+
+\bibitem{manning1999foundations}
+\selectlanguageifdefined{english}
+\BibEmph{Manning~Christopher~D, Sch{\"u}tze~Hinrich}. Foundations of
+  statistical natural language processing. \BibDash
+\newblock MIT press, 1999.
+
+\bibitem{citeulike:11350907}
+\selectlanguageifdefined{english}
+\BibEmph{Murphy~Kevin~P.} Machine Learning: A Probabilistic Perspective
+  (Adaptive Computation and Machine Learning series). \BibDash
+\newblock The MIT Press, 2012. \BibDash
+\newblock
+  ISBN:~\href{http://isbndb.com/search-all.html?kw=0262018020}{0262018020}.
+
+\bibitem{nigam1999using}
+\selectlanguageifdefined{english}
+\BibEmph{Nigam~Kamal, Lafferty~John, McCallum~Andrew}. Using maximum entropy
+  for text classification~// IJCAI99 workshop on machine learning for
+  information filtering. \BibDash
+\newblock 1999. \BibDash
+\newblock P.~61--67.
+
+\bibitem{pang2002thumbs}
+\selectlanguageifdefined{english}
+\BibEmph{Pang~Bo, Lee~Lillian, Vaithyanathan~Shivakumar}. Thumbs up?: sentiment
+  classification using machine learning techniques~// Proceedings of the ACL-02
+  conference on Empirical methods in natural language processing-Volume 10~/
+  Association for Computational Linguistics. \BibDash
+\newblock 2002. \BibDash
+\newblock P.~79--86.
+
+\bibitem{Church:1989:PWA:1075434.1075449}
+\selectlanguageifdefined{english}
+Parsing, Word Associations and Typical Predicate-argument Relations~/
+  Kenneth~Church, William~Gale, Patrick~Hanks, Donald~Hindle~// Proceedings of
+  the Workshop on Speech and Natural Language. \BibDash
+\newblock HLT 89. \BibDash
+\newblock Association for Computational Linguistics, 1989. \BibDash
+\newblock P.~75--81.
+
+\bibitem{tong2002support}
+\selectlanguageifdefined{english}
+\BibEmph{Tong~Simon, Koller~Daphne}. Support vector machine active learning
+  with applications to text classification~// \BibEmph{The Journal of Machine
+  Learning Research}. \BibDash
+\newblock 2002. \BibDash
+\newblock Vol.~2. \BibDash
+\newblock P.~45--66.
+
+\bibitem{turney2002thumbs}
+\selectlanguageifdefined{english}
+\BibEmph{Turney~Peter~D}. Thumbs up or thumbs down?: semantic orientation
+  applied to unsupervised classification of reviews~// Proceedings of the 40th
+  annual meeting on association for computational linguistics~/ Association for
+  Computational Linguistics. \BibDash
+\newblock 2002. \BibDash
+\newblock P.~417--424.
+
+\end{thebibliography}
