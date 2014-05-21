@@ -43,6 +43,14 @@
   Web Journal}. \BibDash
 \newblock 2014.
 
+\bibitem{field1988laplacian}
+\selectlanguageifdefined{english}
+\BibEmph{Field~David~A}. Laplacian smoothing and Delaunay triangulations~//
+  \BibEmph{Communications in applied numerical methods}. \BibDash
+\newblock 1988. \BibDash
+\newblock Vol.~4, no.~6. \BibDash
+\newblock P.~709--712.
+
 \bibitem{go2009twitter}
 \selectlanguageifdefined{english}
 \BibEmph{Go~Alec, Bhayani~Richa, Huang~Lei}. Twitter sentiment classification

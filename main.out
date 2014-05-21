@@ -1,0 +1,34 @@
+\BOOKMARK [1][-]{section*.2}{Введение}{}% 1
+\BOOKMARK [1][-]{section.1}{Существующие подходы}{}% 2
+\BOOKMARK [2][-]{subsection.1.1}{Конкретизация задачи}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.2}{Методы обучения без учителя для задачи анализа мнений}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.3}{Методы обучения с учителем для задачи анализа мнений}{section.1}% 5
+\BOOKMARK [3][-]{subsubsection.1.3.1}{Общая формулировка}{subsection.1.3}% 6
+\BOOKMARK [3][-]{subsubsection.1.3.2}{Наивный байесовский классификатор}{subsection.1.3}% 7
+\BOOKMARK [3][-]{subsubsection.1.3.3}{Классификация методом опорных векторов}{subsection.1.3}% 8
+\BOOKMARK [3][-]{subsubsection.1.3.4}{Метод максимальной энтропии}{subsection.1.3}% 9
+\BOOKMARK [3][-]{subsubsection.1.3.5}{Сравнение работы методов на данных из Твиттера}{subsection.1.3}% 10
+\BOOKMARK [2][-]{subsection.1.4}{Связанные идеи}{section.1}% 11
+\BOOKMARK [3][-]{subsubsection.1.4.1}{Анализ графов слов}{subsection.1.4}% 12
+\BOOKMARK [3][-]{subsubsection.1.4.2}{Использование онтологий}{subsection.1.4}% 13
+\BOOKMARK [3][-]{subsubsection.1.4.3}{Расширение модели темами}{subsection.1.4}% 14
+\BOOKMARK [1][-]{section.2}{Особенности задачи для данных из микроблогов}{}% 15
+\BOOKMARK [2][-]{subsection.2.1}{Основные характеристики данных}{section.2}% 16
+\BOOKMARK [2][-]{subsection.2.2}{Особенности текстов}{section.2}% 17
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Смайлы}{subsection.2.2}% 18
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Хештеги}{subsection.2.2}% 19
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Сокращения, пролонгирования и пунктуация}{subsection.2.2}% 20
+\BOOKMARK [2][-]{subsection.2.3}{Использование особенностей текстов для предобработки}{section.2}% 21
+\BOOKMARK [1][-]{section.3}{Модель классификатора}{}% 22
+\BOOKMARK [2][-]{subsection.3.1}{Наивный байесовский классификатор}{section.3}% 23
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Описание классификатора}{subsection.3.1}% 24
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Обучение и предсказание}{subsection.3.1}% 25
+\BOOKMARK [3][-]{subsubsection.3.1.3}{Проблемы подхода}{subsection.3.1}% 26
+\BOOKMARK [2][-]{subsection.3.2}{Вероятностная модель нового метода}{section.3}% 27
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Переход к байесовскому подходу}{subsection.3.2}% 28
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Использование n-грамм для измерения признаков}{subsection.3.2}% 29
+\BOOKMARK [1][-]{section.4}{Реализация}{}% 30
+\BOOKMARK [2][-]{subsection.4.1}{Онтологии для замены неизвестных слов}{section.4}% 31
+\BOOKMARK [2][-]{subsection.4.2}{Алгоритмы подготовки данных, предсказывания и обучения}{section.4}% 32
+\BOOKMARK [1][-]{section.5}{Количественная оценка метода}{}% 33
+\BOOKMARK [1][-]{section*.3}{Заключение}{}% 34
