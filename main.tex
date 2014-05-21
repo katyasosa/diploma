@@ -1,8 +1,6 @@
 % -*- TeX-engine: xetex; TeX-PDF-mode: t -*-
 
-\documentclass{matmex-diploma-custom}
-
-\usepackage{amsmath}
+\documentclass[a4paper,14pt]{matmex-diploma-custom}
 
 \begin{document}
 
@@ -13,7 +11,7 @@
     position           = {студенки},
     group              = 545,
     author             = {Лебедева Екатерина Андреевна},
-    supervisorPosition = { },
+    supervisorPosition = {ст.преподаватель},
     supervisor         = {Луцив Д.\,В.},
     reviewerPosition   = { },
     reviewer           = {Тузова Е.\,А.},
@@ -26,10 +24,10 @@
 }
 
 \filltitle{en}{
-    chair              = {Chair of Software Engineering},
-    title = {Sentiment analysis of microblog data via probabilistic models},
+    chair              = {Software Engineering Chair},
+    title              = {Sentiment analysis of microblog data via probabilistic models},
     author             = {Ekaterina Lebedeva},
-    supervisorPosition = { },
+    supervisorPosition = {senior lecturer},
     supervisor         = {Dmitry Luciv},
     reviewerPosition   = { },
     reviewer           = {Ekaterina Tuzova},
@@ -47,6 +45,15 @@
 
 % Решение
 \include{methods}
+
+
+\include{naivebayes}
+
+\include{algorithm}
+
+\include{compare}
+
+\include{results}
 
 % Библиография
 \bibliographystyle{ugost2008ls}

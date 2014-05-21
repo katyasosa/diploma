@@ -1,7 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{matmex-diploma-custom}[2013/04/12 MatMex LaTeX diploma class]
-\def\my@fontsize{12pt}\def\my@baseclass{report}
-\DeclareOption{14pt}{\def\my@fontsize{14pt}\def\my@baseclass{report}}
+\def\my@fontsize{12pt}\def\my@baseclass{article}
+\DeclareOption{14pt}{\def\my@fontsize{14pt}\def\my@baseclass{extarticle}}
 \ProcessOptions\relax
 \LoadClass[a4paper,\my@fontsize]{\my@baseclass}
 
@@ -11,9 +11,14 @@
 %% шрифтами. Для русификации достаточно подключить пакет fontspec и
 %% выбрать Unicode шрифт в котором есть кириллические глифы. Ниже
 %% основным шрифтом выбирается Unicode версия шрифта Computer Modern с заcечками
-\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{mathspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\usepackage{unicode-math}
 \setmainfont[Mapping=tex-text,Ligatures=TeX]{Times New Roman}
-\newfontfamily{\cyrillicfonttt}{Times New Roman}
+\setmonofont[Ligatures=TeX]{Times New Roman}
+\setmathfont[Ligatures=TeX]{XITS Math}
 
 %% В XeLaTex заменой известного пакета babel является пакет polyglossia.
 %% Теперь у нас будут переносы слов
@@ -21,7 +26,7 @@
 \setdefaultlanguage{russian}
 
 %% Поля
-\usepackage[a4paper,includeheadfoot,top=0mm,bottom=40mm,left=30mm,right=15mm]{geometry}
+\usepackage[a4paper,includeheadfoot,top=20mm,bottom=20mm,left=30mm,right=15mm]{geometry}
 
 %% Отступ в первом абзаце
 \usepackage{indentfirst}
@@ -29,7 +34,7 @@
 \usepackage[colorlinks=true,urlcolor=black,linkcolor=black,filecolor=black,citecolor=black]{hyperref}
 
 %% Включение графических файлов
-\usepackage{graphicx}
+%% we don't need to load graphicx since it will be loaded by xunicode (which is loaded by fontspec)
 \usepackage[titletoc]{appendix}
 
 %% Эта команда добавляет отчеркнутое место для подписи после имени
@@ -111,20 +116,18 @@
 
 %% Титульная страница на русском языке
 \newcommand\maketitleru{
-%% В верхнем колонтитуле будет университет и кафедра
-%% В нижнем колонтитуле город и год
-\fancypagestyle{plain}{
-    \fancyhf{}
-    \renewcommand{\headrulewidth}{0pt}
+\fancypagestyle{titleru}{
+    \fancyhf{}  % clear all header and footer fields
+    \renewcommand{\headrulewidth}{0pt}  % remove head ruler
+    %% В верхнем колонтитуле будет университет и кафедра
     \chead{\large \my@title@university@ru \\ \my@title@faculty@ru \\ \vskip 1em{\large \my@title@chair@ru \\}}
-    \lfoot{}
+    %% В нижнем колонтитуле город и год
     \cfoot{\large\parbox[b]{\textwidth}{\centering \my@title@city@ru\\ \my@title@year@ru}}
-    \rfoot{}
 }
 
 \title{\my@title@title@ru}
 \begin{titlepage}
-\thispagestyle{plain}
+\thispagestyle{titleru}
 \begin{center}
     \vspace*{0.25\textheight}
     {\Large\my@title@author@ru}
@@ -165,19 +168,17 @@
 
 %% Титульная страница на английском языке
 \newcommand\maketitleen{
-%% В верхнем колонтитуле будет университет и кафедра
-%% В нижнем колонтитуле город и год
-\fancypagestyle{plain}{
-    \fancyhf{}
-    \renewcommand{\headrulewidth}{0pt}
+\fancypagestyle{titleen}{
+    \fancyhf{}  % clear all header and footer fields
+    \renewcommand{\headrulewidth}{0pt}  % remove head ruler
+    %% В верхнем колонтитуле будет университет и кафедра
     \chead{\large \my@title@university@en \\ \my@title@faculty@en \\ \vskip 1em{\large \my@title@chair@en \\}}
-    \lfoot{}
+    %% В нижнем колонтитуле город и год
     \cfoot{\large\parbox[b]{\textwidth}{\centering \my@title@city@en\\ \my@title@year@en}}
-    \rfoot{}
 }
 \title{\my@title@title@en}
 \begin{titlepage}%
-\thispagestyle{plain}
+\thispagestyle{titleen}
   \begin{center}
     \vspace*{0.25\textheight}
     {\Large\my@title@author@en\\}
@@ -221,7 +222,7 @@
 %% Титульный лист генерируется, если для соответствующего языка
 %% определен аргумент title
 %% Счетчик страниц автоматически увеличивается при генерации титульнго листа
-\renewcommand\maketitle{{
+\renewcommand\maketitle{
 %% На титульной странице все кроме полей соответствует \documentclass[12pt]{article}
 \let\orignewcommand\newcommand
 \let\newcommand\renewcommand
@@ -234,11 +235,32 @@
 \newcounter{titlepages}
 \setcounter{titlepages}{1}
 \begin{spacing}{1.0}
-\ifthenelse{\isundefined{\my@title@title@ru}}{}{\maketitleru\addtocounter{titlepages}{1}}
-\ifthenelse{\isundefined{\my@title@title@en}}{}{\maketitleen\addtocounter{titlepages}{1}}
+\ifthenelse{\isundefined{\my@title@title@ru}}{}{
+  % fancyhdr set height of the top/bottom headers automatically
+  % so set them to zero to be sure that he does it
+  \setlength{\headheight}{0pt}
+  \setlength{\footskip}{0pt}
+  \maketitleru\addtocounter{titlepages}{1}
+}
+\ifthenelse{\isundefined{\my@title@title@en}}{}{
+  % fancyhdr already set height of the top/bottom headers on the previous page (titleru)
+  % but on this page the headers' height might be different
+  % so set them to zero again in order to make fancyhdr to do it
+  \setlength{\headheight}{0pt}
+  \setlength{\footskip}{0pt}
+  \maketitleen\addtocounter{titlepages}{1}
+}
 \end{spacing}
 \setcounter{page}{\value{titlepages}}
-}}
+% restore preamble's geometry
+\restoregeometry
+% we have no top header, but it have some dimensions
+% here we move all space occupied by the empty top header to the text's space
+\addtolength{\textheight}{\headheight}
+\addtolength{\textheight}{\headsep}
+\setlength{\headheight}{0pt}
+\setlength{\headsep}{0pt}
+}
 
 %% Каждая глава начинается с новой страницы, введение и заключение не
 %% нумеруются, но в оглавление входят. А само оглавление и список литературы,
@@ -263,8 +285,3 @@
 
 \let\savenumberline\numberline
 \def\numberline#1{\savenumberline{#1.}}
-
-\addtolength{\textheight}{\headheight}
-\addtolength{\textheight}{\headsep}
-\setlength{\headsep}{0pt}
-\setlength{\headheight}{0pt}

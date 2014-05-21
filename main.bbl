@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \def\selectlanguageifdefined#1{
 \expandafter\ifx\csname date#1\endcsname\relax
 \else\selectlanguage{#1}\fi}
@@ -10,6 +10,38 @@
 \ProvideTextCommandDefault{\cyrdash}{\hbox to.8em{--\hss--}}
 \providecommand*{\BibDash}{\ifdim\lastskip>0pt\unskip\nobreak\hskip.2em\fi
 \cyrdash\hskip.2em\ignorespaces}
+
+\bibitem{bird2006nltk}
+\selectlanguageifdefined{english}
+\BibEmph{Bird~Steven}. NLTK: the natural language toolkit~// Proceedings of the
+  COLING/ACL on Interactive presentation sessions~/ Association for
+  Computational Linguistics. \BibDash
+\newblock 2006. \BibDash
+\newblock P.~69--72.
+
+\bibitem{Celikyilmaz2010}
+\selectlanguageifdefined{english}
+\BibEmph{Celikyilmaz~Asli}. {Probabilistic model-based sentiment analysis of
+  twitter messages}. \BibDash
+\newblock 2010. \BibDash
+\newblock P.~79--84.
+
+\bibitem{Colace2013}
+\selectlanguageifdefined{english}
+\BibEmph{Colace~Francesco, {De Santo}~Massimo, Greco~Luca}. {A Probabilistic
+  Approach to Tweets' Sentiment Classification}~//
+  \href{http://dx.doi.org/10.1109/ACII.2013.13}{\BibEmph{2013 Humaine
+  Association Conference on Affective Computing and Intelligent Interaction}}.
+  \BibDash
+\newblock 2013. \BibDash
+\newblock P.~37--42.
+
+\bibitem{dbpedia-swj}
+\selectlanguageifdefined{english}
+{DBpedia} - A Large-scale, Multilingual Knowledge Base Extracted from
+  Wikipedia~/ Jens~Lehmann, Robert~Isele, Max~Jakob et~al.~// \BibEmph{Semantic
+  Web Journal}. \BibDash
+\newblock 2014.
 
 \bibitem{go2009twitter}
 \selectlanguageifdefined{english}
@@ -41,6 +73,16 @@
 \newblock 1999. \BibDash
 \newblock P.~61--67.
 
+\bibitem{Kontopoulos2013}
+\selectlanguageifdefined{english}
+{Ontology-based sentiment analysis of twitter posts}~/ Efstratios~Kontopoulos,
+  Christos~Berberidis, Theologos~Dergiades, Nick~Bassiliades~//
+  \href{http://dx.doi.org/10.1016/j.eswa.2013.01.001}{\BibEmph{Expert Systems
+  with Applications}}. \BibDash
+\newblock 2013. \BibDash
+\newblock Vol.~40, no.~10. \BibDash
+\newblock P.~4065--4074.
+
 \bibitem{pang2002thumbs}
 \selectlanguageifdefined{english}
 \BibEmph{Pang~Bo, Lee~Lillian, Vaithyanathan~Shivakumar}. Thumbs up?: sentiment
@@ -58,6 +100,34 @@ Parsing, Word Associations and Typical Predicate-argument Relations~/
 \newblock HLT 89. \BibDash
 \newblock Association for Computational Linguistics, 1989. \BibDash
 \newblock P.~75--81.
+
+\bibitem{porter2001snowball}
+\selectlanguageifdefined{english}
+\BibEmph{Porter~Martin~F}. Snowball: A language for stemming algorithms.
+  \BibDash
+\newblock 2001.
+
+\bibitem{qadir2013bootstrapped}
+\selectlanguageifdefined{english}
+\BibEmph{Qadir~Ashequl, Riloff~Ellen}. Bootstrapped Learning of Emotion
+  Hashtags\# hashtags4you~// \BibEmph{WASSA 2013}. \BibDash
+\newblock 2013. \BibDash
+\newblock P.~2.
+
+\bibitem{SaifHassanHeYulanAlani2012}
+\selectlanguageifdefined{english}
+\BibEmph{{Saif, Hassan He, Yulan Alani}~Harith}. {Semantic sentiment analysis
+  of twitter}~// The 11th International Semantic Web Conference. \BibDash
+\newblock 2012.
+
+\bibitem{scikit-learn}
+\selectlanguageifdefined{english}
+Scikit-learn: Machine Learning in {P}ython~/ F.~Pedregosa, G.~Varoquaux,
+  A.~Gramfort et~al.~// \BibEmph{Journal of Machine Learning Research}.
+  \BibDash
+\newblock 2011. \BibDash
+\newblock Vol.~12. \BibDash
+\newblock P.~2825--2830.
 
 \bibitem{tong2002support}
 \selectlanguageifdefined{english}
