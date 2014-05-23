@@ -1,56 +1,14 @@
-This is BibTeX, Version 0.99d (TeX Live 2013)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: main.aux
-A level-1 auxiliary file: intro.aux
-A level-1 auxiliary file: review.aux
-A level-1 auxiliary file: methods.aux
-A level-1 auxiliary file: naivebayes.aux
-A level-1 auxiliary file: algorithm.aux
-A level-1 auxiliary file: compare.aux
-A level-1 auxiliary file: results.aux
-The style file: ugost2008ls.bst
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Database file #1: main.bib
-Warning--empty journal in Celikyilmaz2010
-You've used 18 entries,
-            4180 wiz_defined-function locations,
-            1247 strings with 12695 characters,
-and the built_in function-call counts, 8149 in all, are:
-= -- 964
-> -- 245
-< -- 41
-+ -- 84
-- -- 66
-* -- 494
-:= -- 1032
-add.period$ -- 69
-call.type$ -- 18
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 400
-empty$ -- 788
-format.name$ -- 66
-if$ -- 2039
-int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 0
-newline$ -- 123
-num.names$ -- 84
-pop$ -- 147
-preamble$ -- 1
-purify$ -- 65
-quote$ -- 0
-skip$ -- 338
-stack$ -- 0
-substring$ -- 439
-swap$ -- 259
-text.length$ -- 6
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 1
-while$ -- 69
-width$ -- 20
-write$ -- 254
-(There was 1 warning)
+[0] Config.pm:318> INFO - This is Biber 1.8
+[0] Config.pm:321> INFO - Logfile is 'main.blg'
+[99] biber-darwin:275> INFO - === Fri May 23, 2014, 17:50:48
+[99] Biber.pm:333> INFO - Reading 'main.bcf'
+[190] Biber.pm:630> INFO - Found 18 citekeys in bib section 0
+[225] Biber.pm:3053> INFO - Processing section 0
+[258] Biber.pm:3190> INFO - Looking for bibtex format file 'main.bib' for section 0
+[261] bibtex.pm:937> INFO - Decoding LaTeX character macros into UTF-8
+[265] bibtex.pm:812> INFO - Found BibTeX data source 'main.bib'
+[404] Biber.pm:2939> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[404] Biber.pm:2945> INFO - Sorting 'entry' list 'nty' keys
+[404] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[488] bbl.pm:482> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[492] bbl.pm:555> INFO - Output to main.bbl

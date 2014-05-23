@@ -1,158 +1,442 @@
-\begin{thebibliography}{10}
-\def\selectlanguageifdefined#1{
-\expandafter\ifx\csname date#1\endcsname\relax
-\else\selectlanguage{#1}\fi}
-\providecommand*{\href}[2]{{\small #2}}
-\providecommand*{\url}[1]{{\small #1}}
-\providecommand*{\BibUrl}[1]{\url{#1}}
-\providecommand{\BibAnnote}[1]{}
-\providecommand*{\BibEmph}[1]{#1}
-\ProvideTextCommandDefault{\cyrdash}{\hbox to.8em{--\hss--}}
-\providecommand*{\BibDash}{\ifdim\lastskip>0pt\unskip\nobreak\hskip.2em\fi
-\cyrdash\hskip.2em\ignorespaces}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem{bird2006nltk}
-\selectlanguageifdefined{english}
-\BibEmph{Bird~Steven}. NLTK: the natural language toolkit~// Proceedings of the
-  COLING/ACL on Interactive presentation sessions~/ Association for
-  Computational Linguistics. \BibDash
-\newblock 2006. \BibDash
-\newblock P.~69--72.
 
-\bibitem{Celikyilmaz2010}
-\selectlanguageifdefined{english}
-\BibEmph{Celikyilmaz~Asli}. {Probabilistic model-based sentiment analysis of
-  twitter messages}. \BibDash
-\newblock 2010. \BibDash
-\newblock P.~79--84.
+\refsection{0}
+  \sortlist{entry}{nty}
+    \entry{bird2006nltk}{inproceedings}{}
+      \name{labelname}{1}{}{%
+        {{hash=a6ad72a87713a430f7335c5656da28f1}{Bird}{B\bibinitperiod}{Steven}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=a6ad72a87713a430f7335c5656da28f1}{Bird}{B\bibinitperiod}{Steven}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{a6ad72a87713a430f7335c5656da28f1}
+      \strng{fullhash}{a6ad72a87713a430f7335c5656da28f1}
+      \field{sortinit}{B}
+      \field{labeltitle}{NLTK: the natural language toolkit}
+      \field{booktitle}{Proceedings of the COLING/ACL on Interactive presentation sessions}
+      \field{title}{NLTK: the natural language toolkit}
+      \field{year}{2006}
+      \field{pages}{69\bibrangedash 72}
+    \endentry
+    \entry{Celikyilmaz2010}{inproceedings}{}
+      \name{labelname}{1}{}{%
+        {{hash=c4927df8e95405dfbbf5b894d58d4fca}{Celikyilmaz}{C\bibinitperiod}{Asli}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=c4927df8e95405dfbbf5b894d58d4fca}{Celikyilmaz}{C\bibinitperiod}{Asli}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c4927df8e95405dfbbf5b894d58d4fca}
+      \strng{fullhash}{c4927df8e95405dfbbf5b894d58d4fca}
+      \field{sortinit}{C}
+      \field{labeltitle}{{Probabilistic model-based sentiment analysis of twitter messages}}
+      \field{booktitle}{Spoken Language Technology Workshop}
+      \field{isbn}{9781424479030}
+      \field{title}{{Probabilistic model-based sentiment analysis of twitter messages}}
+      \field{year}{2010}
+      \field{pages}{79\bibrangedash 84}
+    \endentry
+    \entry{Church:1989:PWA:1075434.1075449}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=e53d64569df06add2185edbba360f8b8}{Church}{C\bibinitperiod}{Kenneth}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=6f3674aa658de27e5a9cad4b0d6be737}{Gale}{G\bibinitperiod}{William}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=1114530166d28c419ef0cf78a9482c68}{Hanks}{H\bibinitperiod}{Patrick}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=fe68dd5216d1204e938be0c7106907cf}{Hindle}{H\bibinitperiod}{Donald}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=e53d64569df06add2185edbba360f8b8}{Church}{C\bibinitperiod}{Kenneth}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=6f3674aa658de27e5a9cad4b0d6be737}{Gale}{G\bibinitperiod}{William}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=1114530166d28c419ef0cf78a9482c68}{Hanks}{H\bibinitperiod}{Patrick}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=fe68dd5216d1204e938be0c7106907cf}{Hindle}{H\bibinitperiod}{Donald}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{52bfa392a5b977f04f75c5527c67b321}
+      \strng{fullhash}{f6e5f0e043e8435c7fd946501c10a7c6}
+      \field{sortinit}{C}
+      \field{labeltitle}{Parsing, Word Associations and Typical Predicate-argument Relations}
+      \field{booktitle}{Proceedings of the Workshop on Speech and Natural Language}
+      \field{isbn}{1-55860-112-0}
+      \field{series}{HLT 89}
+      \field{title}{Parsing, Word Associations and Typical Predicate-argument Relations}
+      \field{year}{1989}
+      \field{pages}{75\bibrangedash 81}
+    \endentry
+    \entry{Colace2013}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=64f03d523a07fd0062798dc88936df3c}{Colace}{C\bibinitperiod}{Francesco}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=dfb0b13248a768390ce179402f3abe95}{{De\bibnamedelimb Santo}}{D\bibinitperiod}{Massimo}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=ef8315070da0c3c67be678e3c8ee8b85}{Greco}{G\bibinitperiod}{Luca}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=64f03d523a07fd0062798dc88936df3c}{Colace}{C\bibinitperiod}{Francesco}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=dfb0b13248a768390ce179402f3abe95}{{De\bibnamedelimb Santo}}{D\bibinitperiod}{Massimo}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=ef8315070da0c3c67be678e3c8ee8b85}{Greco}{G\bibinitperiod}{Luca}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Ieee}%
+      }
+      \strng{namehash}{eb25b7ef827d31f6c25c8b26eb9edd9c}
+      \strng{fullhash}{eb25b7ef827d31f6c25c8b26eb9edd9c}
+      \field{sortinit}{C}
+      \field{labeltitle}{{A Probabilistic Approach to Tweets' Sentiment Classification}}
+      \field{isbn}{978-0-7695-5048-0}
+      \field{journaltitle}{2013 Humaine Association Conference on Affective Computing and Intelligent Interaction}
+      \field{title}{{A Probabilistic Approach to Tweets' Sentiment Classification}}
+      \field{year}{2013}
+      \field{pages}{37\bibrangedash 42}
+      \verb{doi}
+      \verb 10.1109/ACII.2013.13
+      \endverb
+    \endentry
+    \entry{field1988laplacian}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=fad858b0136d1abcb7d474a4d371d520}{Field}{F\bibinitperiod}{David\bibnamedelima A}{D\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=fad858b0136d1abcb7d474a4d371d520}{Field}{F\bibinitperiod}{David\bibnamedelima A}{D\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{fad858b0136d1abcb7d474a4d371d520}
+      \strng{fullhash}{fad858b0136d1abcb7d474a4d371d520}
+      \field{sortinit}{F}
+      \field{labeltitle}{Laplacian smoothing and Delaunay triangulations}
+      \field{journaltitle}{Communications in applied numerical methods}
+      \field{number}{6}
+      \field{title}{Laplacian smoothing and Delaunay triangulations}
+      \field{volume}{4}
+      \field{year}{1988}
+      \field{pages}{709\bibrangedash 712}
+    \endentry
+    \entry{go2009twitter}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=b9559d5a57310afd0d51bed30f0437e2}{Go}{G\bibinitperiod}{Alec}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=e3b628ffe4a3b760a4eaa45b5d0a3a74}{Bhayani}{B\bibinitperiod}{Richa}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=ebcb470ee777cbc56984a83379d29819}{Huang}{H\bibinitperiod}{Lei}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=b9559d5a57310afd0d51bed30f0437e2}{Go}{G\bibinitperiod}{Alec}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=e3b628ffe4a3b760a4eaa45b5d0a3a74}{Bhayani}{B\bibinitperiod}{Richa}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=ebcb470ee777cbc56984a83379d29819}{Huang}{H\bibinitperiod}{Lei}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{48f9255e489b914abf64da2c0acada32}
+      \strng{fullhash}{48f9255e489b914abf64da2c0acada32}
+      \field{sortinit}{G}
+      \field{labeltitle}{Twitter sentiment classification using distant supervision}
+      \field{journaltitle}{CS224N Project Report, Stanford}
+      \field{title}{Twitter sentiment classification using distant supervision}
+      \field{year}{2009}
+      \field{pages}{1\bibrangedash 12}
+    \endentry
+    \entry{Kontopoulos2013}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=64006acf38b6e1ab33a88815675b994e}{Kontopoulos}{K\bibinitperiod}{Efstratios}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=4a1f4cb0783c5f297c85f98225416400}{Berberidis}{B\bibinitperiod}{Christos}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=7861220af8ec89d4ebe3456871ba2552}{Dergiades}{D\bibinitperiod}{Theologos}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=8b87fe2ba0122489518606ca372c85d0}{Bassiliades}{B\bibinitperiod}{Nick}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=64006acf38b6e1ab33a88815675b994e}{Kontopoulos}{K\bibinitperiod}{Efstratios}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=4a1f4cb0783c5f297c85f98225416400}{Berberidis}{B\bibinitperiod}{Christos}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=7861220af8ec89d4ebe3456871ba2552}{Dergiades}{D\bibinitperiod}{Theologos}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=8b87fe2ba0122489518606ca372c85d0}{Bassiliades}{B\bibinitperiod}{Nick}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{320908c2e857b5258dc189578cc14b18}
+      \strng{fullhash}{fdd8daaa1371beede32a55abb8c81864}
+      \field{sortinit}{K}
+      \field{labeltitle}{{Ontology-based sentiment analysis of twitter posts}}
+      \field{issn}{09574174}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{number}{10}
+      \field{title}{{Ontology-based sentiment analysis of twitter posts}}
+      \field{volume}{40}
+      \field{year}{2013}
+      \field{pages}{4065\bibrangedash 4074}
+      \verb{doi}
+      \verb 10.1016/j.eswa.2013.01.001
+      \endverb
+    \endentry
+    \entry{dbpedia-swj}{article}{}
+      \name{labelname}{11}{}{%
+        {{hash=045d4294ee6b6936c99d278b857478b4}{Lehmann}{L\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=8141c99e7d68accc3a51a99c8a6c672c}{Isele}{I\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=057759be8d73ed324cad1e3b8691d679}{Jakob}{J\bibinitperiod}{Max}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=a863dfec74c0821f8abbb0322e67647d}{Jentzsch}{J\bibinitperiod}{Anja}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=aad97cc17257a23ec41f28e1b3fa68b3}{Kontokostas}{K\bibinitperiod}{Dimitris}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=7876f26a5599f6f027a3195ff8462dba}{Mendes}{M\bibinitperiod}{Pablo\bibnamedelima N.}{P\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=aaa7f45375892594264f2815449fc349}{Hellmann}{H\bibinitperiod}{Sebastian}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=85232fcc0e87c512fe54baaa66c503d7}{Morsey}{M\bibinitperiod}{Mohamed}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=68d52ca746fafff5223b2d7957030e12}{Kleef}{K\bibinitperiod}{Patrick}{P\bibinitperiod}{van}{v\bibinitperiod}{}{}}%
+        {{hash=74de32830575f67e1479f58f47d2111d}{Auer}{A\bibinitperiod}{Sören}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=c0ab52e226557a243a4a5277aec8acdc}{Bizer}{B\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{11}{}{%
+        {{hash=045d4294ee6b6936c99d278b857478b4}{Lehmann}{L\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=8141c99e7d68accc3a51a99c8a6c672c}{Isele}{I\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=057759be8d73ed324cad1e3b8691d679}{Jakob}{J\bibinitperiod}{Max}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=a863dfec74c0821f8abbb0322e67647d}{Jentzsch}{J\bibinitperiod}{Anja}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=aad97cc17257a23ec41f28e1b3fa68b3}{Kontokostas}{K\bibinitperiod}{Dimitris}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=7876f26a5599f6f027a3195ff8462dba}{Mendes}{M\bibinitperiod}{Pablo\bibnamedelima N.}{P\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=aaa7f45375892594264f2815449fc349}{Hellmann}{H\bibinitperiod}{Sebastian}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=85232fcc0e87c512fe54baaa66c503d7}{Morsey}{M\bibinitperiod}{Mohamed}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=68d52ca746fafff5223b2d7957030e12}{Kleef}{K\bibinitperiod}{Patrick}{P\bibinitperiod}{van}{v\bibinitperiod}{}{}}%
+        {{hash=74de32830575f67e1479f58f47d2111d}{Auer}{A\bibinitperiod}{Sören}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=c0ab52e226557a243a4a5277aec8acdc}{Bizer}{B\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f3943df71780a02de8efff3344001915}
+      \strng{fullhash}{203be8740f8f058b00444f63e33a5a1b}
+      \field{sortinit}{L}
+      \field{labeltitle}{{DBpedia} --- A Large-scale, Multilingual Knowledge Base Extracted from Wikipedia}
+      \field{journaltitle}{Semantic Web Journal}
+      \field{title}{{DBpedia} --- A Large-scale, Multilingual Knowledge Base Extracted from Wikipedia}
+      \field{year}{2014}
+    \endentry
+    \entry{manning1999foundations}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=1261894eaefc186bfeabf336e05e6294}{Manning}{M\bibinitperiod}{Christopher\bibnamedelima D}{C\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=9a80de0e5ec6df57363aaf321a5d05be}{Schütze}{S\bibinitperiod}{Hinrich}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=1261894eaefc186bfeabf336e05e6294}{Manning}{M\bibinitperiod}{Christopher\bibnamedelima D}{C\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=9a80de0e5ec6df57363aaf321a5d05be}{Schütze}{S\bibinitperiod}{Hinrich}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {MIT press}%
+      }
+      \strng{namehash}{3e07fec90088c865f54869e8372b16ed}
+      \strng{fullhash}{3e07fec90088c865f54869e8372b16ed}
+      \field{sortinit}{M}
+      \field{labeltitle}{Foundations of statistical natural language processing}
+      \field{title}{Foundations of statistical natural language processing}
+      \field{year}{1999}
+    \endentry
+    \entry{citeulike:11350907}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=57a45a819d1ea44f0e40dfcdeeaa4140}{Murphy}{M\bibinitperiod}{Kevin\bibnamedelima P.}{K\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=57a45a819d1ea44f0e40dfcdeeaa4140}{Murphy}{M\bibinitperiod}{Kevin\bibnamedelima P.}{K\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {The MIT Press}%
+      }
+      \strng{namehash}{57a45a819d1ea44f0e40dfcdeeaa4140}
+      \strng{fullhash}{57a45a819d1ea44f0e40dfcdeeaa4140}
+      \field{sortinit}{M}
+      \field{labeltitle}{Machine Learning: A Probabilistic Perspective (Adaptive Computation and Machine Learning series)}
+      \field{isbn}{0262018020}
+      \field{title}{Machine Learning: A Probabilistic Perspective (Adaptive Computation and Machine Learning series)}
+      \field{year}{2012}
+    \endentry
+    \entry{nigam1999using}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=b69fc1ad440b0bf65dce845ca65e44a2}{Nigam}{N\bibinitperiod}{Kamal}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=88426f033c21f91cad168597555d363d}{Lafferty}{L\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17d73a3a5be48993791cbe4db8855331}{McCallum}{M\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=b69fc1ad440b0bf65dce845ca65e44a2}{Nigam}{N\bibinitperiod}{Kamal}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=88426f033c21f91cad168597555d363d}{Lafferty}{L\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17d73a3a5be48993791cbe4db8855331}{McCallum}{M\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{eda3ed46ca74296dfd1f7d345d1633b5}
+      \strng{fullhash}{eda3ed46ca74296dfd1f7d345d1633b5}
+      \field{sortinit}{N}
+      \field{labeltitle}{Using maximum entropy for text classification}
+      \field{booktitle}{IJCAI99 workshop on machine learning for information filtering}
+      \field{title}{Using maximum entropy for text classification}
+      \field{year}{1999}
+      \field{pages}{61\bibrangedash 67}
+    \endentry
+    \entry{pang2002thumbs}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=f954c023cbaefd74cfaba0aa87f35048}{Pang}{P\bibinitperiod}{Bo}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=c3867d3f1b42ba3f8d7fc573ef12a0ec}{Lee}{L\bibinitperiod}{Lillian}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=6a02bbffcec6ad4af979eb4c5fdd1921}{Vaithyanathan}{V\bibinitperiod}{Shivakumar}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=f954c023cbaefd74cfaba0aa87f35048}{Pang}{P\bibinitperiod}{Bo}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=c3867d3f1b42ba3f8d7fc573ef12a0ec}{Lee}{L\bibinitperiod}{Lillian}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=6a02bbffcec6ad4af979eb4c5fdd1921}{Vaithyanathan}{V\bibinitperiod}{Shivakumar}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{b42bb17ffe40048caa4c16b6bd4edad9}
+      \strng{fullhash}{b42bb17ffe40048caa4c16b6bd4edad9}
+      \field{sortinit}{P}
+      \field{labeltitle}{Thumbs up?: sentiment classification using machine learning techniques}
+      \field{booktitle}{Proceedings of the ACL-02 conference on Empirical methods in natural language processing-Volume 10}
+      \field{title}{Thumbs up?: sentiment classification using machine learning techniques}
+      \field{year}{2002}
+      \field{pages}{79\bibrangedash 86}
+    \endentry
+    \entry{scikit-learn}{article}{}
+      \name{labelname}{16}{}{%
+        {{hash=22e2e571cc6356b3cb21d40e212ca6ac}{Pedregosa}{P\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=90a0a2720bfe73efd4029f8a456cdcc3}{Varoquaux}{V\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=386dd6e7464b390d92ce58cf04ba101c}{Gramfort}{G\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ce3bf798cb091d3910827d51160fe0f8}{Michel}{M\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=b8fa2de348731073d50b89e07267e159}{Thirion}{T\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=1c2f66c39a6e2b2ca4d545348028a677}{Grisel}{G\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=f5652799b846fbd40ce19b83c70ef1d3}{Blondel}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=8d2ca4be32fef4d9e848709878fcb757}{Prettenhofer}{P\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=56ac3785f81550a29a28d3abd746ecff}{Weiss}{W\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=cb070bdb80f3a6add15c62ca13a4a419}{Dubourg}{D\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=f1aa9e81c02f406a26762c8c85fdc1fb}{Vanderplas}{V\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=35a7037441ee9fd7ca45c2216a9cb080}{Passos}{P\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=39b253ebe84b96f6acd07b762d251ca1}{Cournapeau}{C\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=3c836162a7c1b02a3454bb2df2c57303}{Brucher}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=980c432be67e1ca5879a0aee315ff2a9}{Perrot}{P\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=ad11ee93370bf63bb64684cfdff0836f}{Duchesnay}{D\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{16}{}{%
+        {{hash=22e2e571cc6356b3cb21d40e212ca6ac}{Pedregosa}{P\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=90a0a2720bfe73efd4029f8a456cdcc3}{Varoquaux}{V\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=386dd6e7464b390d92ce58cf04ba101c}{Gramfort}{G\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ce3bf798cb091d3910827d51160fe0f8}{Michel}{M\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=b8fa2de348731073d50b89e07267e159}{Thirion}{T\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=1c2f66c39a6e2b2ca4d545348028a677}{Grisel}{G\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=f5652799b846fbd40ce19b83c70ef1d3}{Blondel}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=8d2ca4be32fef4d9e848709878fcb757}{Prettenhofer}{P\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=56ac3785f81550a29a28d3abd746ecff}{Weiss}{W\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=cb070bdb80f3a6add15c62ca13a4a419}{Dubourg}{D\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=f1aa9e81c02f406a26762c8c85fdc1fb}{Vanderplas}{V\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=35a7037441ee9fd7ca45c2216a9cb080}{Passos}{P\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=39b253ebe84b96f6acd07b762d251ca1}{Cournapeau}{C\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=3c836162a7c1b02a3454bb2df2c57303}{Brucher}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=980c432be67e1ca5879a0aee315ff2a9}{Perrot}{P\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=ad11ee93370bf63bb64684cfdff0836f}{Duchesnay}{D\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7f03c9665977d16cca3f7d744a8a06df}
+      \strng{fullhash}{81371d66ce2cfb28d217f955948ace55}
+      \field{sortinit}{P}
+      \field{labeltitle}{Scikit-learn: Machine Learning in {P}ython}
+      \field{journaltitle}{Journal of Machine Learning Research}
+      \field{title}{Scikit-learn: Machine Learning in {P}ython}
+      \field{volume}{12}
+      \field{year}{2011}
+      \field{pages}{2825\bibrangedash 2830}
+    \endentry
+    \entry{porter2001snowball}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=4387697d031949be5d70a480e7072961}{Porter}{P\bibinitperiod}{Martin\bibnamedelima F}{M\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=4387697d031949be5d70a480e7072961}{Porter}{P\bibinitperiod}{Martin\bibnamedelima F}{M\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4387697d031949be5d70a480e7072961}
+      \strng{fullhash}{4387697d031949be5d70a480e7072961}
+      \field{sortinit}{P}
+      \field{labeltitle}{Snowball: A language for stemming algorithms}
+      \field{title}{Snowball: A language for stemming algorithms}
+      \field{year}{2001}
+    \endentry
+    \entry{qadir2013bootstrapped}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=a76056009f38e31132157f5be221ceba}{Qadir}{Q\bibinitperiod}{Ashequl}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=d937431d4d41abf0c2b023f2c1b7f031}{Riloff}{R\bibinitperiod}{Ellen}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=a76056009f38e31132157f5be221ceba}{Qadir}{Q\bibinitperiod}{Ashequl}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=d937431d4d41abf0c2b023f2c1b7f031}{Riloff}{R\bibinitperiod}{Ellen}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1aedbbadcdb90014a91401e50ce152b0}
+      \strng{fullhash}{1aedbbadcdb90014a91401e50ce152b0}
+      \field{sortinit}{Q}
+      \field{labeltitle}{Bootstrapped Learning of Emotion Hashtags\# hashtags4you}
+      \field{journaltitle}{WASSA 2013}
+      \field{title}{Bootstrapped Learning of Emotion Hashtags\# hashtags4you}
+      \field{year}{2013}
+      \field{pages}{2}
+    \endentry
+    \entry{SaifHassanHeYulanAlani2012}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=854fbdf40443b81862feceff966b0b22}{Saif}{S\bibinitperiod}{Hassan}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=f3b78337b03e473fdd1fe07b5b127389}{He}{H\bibinitperiod}{Yulan}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=5d03c943427ee704962d8d883cc87264}{Alani}{A\bibinitperiod}{Harith}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=854fbdf40443b81862feceff966b0b22}{Saif}{S\bibinitperiod}{Hassan}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=f3b78337b03e473fdd1fe07b5b127389}{He}{H\bibinitperiod}{Yulan}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=5d03c943427ee704962d8d883cc87264}{Alani}{A\bibinitperiod}{Harith}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{016be023504883ea812f65d1a006ac7c}
+      \strng{fullhash}{016be023504883ea812f65d1a006ac7c}
+      \field{sortinit}{S}
+      \field{labeltitle}{{Semantic sentiment analysis of twitter}}
+      \field{booktitle}{The 11th International Semantic Web Conference}
+      \field{title}{{Semantic sentiment analysis of twitter}}
+      \field{year}{2012}
+      \keyw{feature interpolation,naive bayes,probabilistic models,semantic concepts,sentiment analysis}
+    \endentry
+    \entry{tong2002support}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=e2a70ccf00e454090b66fe70592c9e04}{Tong}{T\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=9c785bcf6b8a0b99e44695299a6aecb2}{Koller}{K\bibinitperiod}{Daphne}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=e2a70ccf00e454090b66fe70592c9e04}{Tong}{T\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=9c785bcf6b8a0b99e44695299a6aecb2}{Koller}{K\bibinitperiod}{Daphne}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {JMLR. org}%
+      }
+      \strng{namehash}{efc7dcdcbeef7f518bac92ff2851da72}
+      \strng{fullhash}{efc7dcdcbeef7f518bac92ff2851da72}
+      \field{sortinit}{T}
+      \field{labeltitle}{Support vector machine active learning with applications to text classification}
+      \field{journaltitle}{The Journal of Machine Learning Research}
+      \field{title}{Support vector machine active learning with applications to text classification}
+      \field{volume}{2}
+      \field{year}{2002}
+      \field{pages}{45\bibrangedash 66}
+    \endentry
+    \entry{turney2002thumbs}{inproceedings}{}
+      \name{labelname}{1}{}{%
+        {{hash=f948f44ae716e8680da94e7d27dc5ba9}{Turney}{T\bibinitperiod}{Peter\bibnamedelima D}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=f948f44ae716e8680da94e7d27dc5ba9}{Turney}{T\bibinitperiod}{Peter\bibnamedelima D}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{f948f44ae716e8680da94e7d27dc5ba9}
+      \strng{fullhash}{f948f44ae716e8680da94e7d27dc5ba9}
+      \field{sortinit}{T}
+      \field{labeltitle}{Thumbs up or thumbs down?: semantic orientation applied to unsupervised classification of reviews}
+      \field{booktitle}{Proceedings of the 40th annual meeting on association for computational linguistics}
+      \field{title}{Thumbs up or thumbs down?: semantic orientation applied to unsupervised classification of reviews}
+      \field{year}{2002}
+      \field{pages}{417\bibrangedash 424}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
 
-\bibitem{Colace2013}
-\selectlanguageifdefined{english}
-\BibEmph{Colace~Francesco, {De Santo}~Massimo, Greco~Luca}. {A Probabilistic
-  Approach to Tweets' Sentiment Classification}~//
-  \href{http://dx.doi.org/10.1109/ACII.2013.13}{\BibEmph{2013 Humaine
-  Association Conference on Affective Computing and Intelligent Interaction}}.
-  \BibDash
-\newblock 2013. \BibDash
-\newblock P.~37--42.
-
-\bibitem{dbpedia-swj}
-\selectlanguageifdefined{english}
-{DBpedia} - A Large-scale, Multilingual Knowledge Base Extracted from
-  Wikipedia~/ Jens~Lehmann, Robert~Isele, Max~Jakob et~al.~// \BibEmph{Semantic
-  Web Journal}. \BibDash
-\newblock 2014.
-
-\bibitem{field1988laplacian}
-\selectlanguageifdefined{english}
-\BibEmph{Field~David~A}. Laplacian smoothing and Delaunay triangulations~//
-  \BibEmph{Communications in applied numerical methods}. \BibDash
-\newblock 1988. \BibDash
-\newblock Vol.~4, no.~6. \BibDash
-\newblock P.~709--712.
-
-\bibitem{go2009twitter}
-\selectlanguageifdefined{english}
-\BibEmph{Go~Alec, Bhayani~Richa, Huang~Lei}. Twitter sentiment classification
-  using distant supervision~// \BibEmph{CS224N Project Report, Stanford}.
-  \BibDash
-\newblock 2009. \BibDash
-\newblock P.~1--12.
-
-\bibitem{manning1999foundations}
-\selectlanguageifdefined{english}
-\BibEmph{Manning~Christopher~D, Sch{\"u}tze~Hinrich}. Foundations of
-  statistical natural language processing. \BibDash
-\newblock MIT press, 1999.
-
-\bibitem{citeulike:11350907}
-\selectlanguageifdefined{english}
-\BibEmph{Murphy~Kevin~P.} Machine Learning: A Probabilistic Perspective
-  (Adaptive Computation and Machine Learning series). \BibDash
-\newblock The MIT Press, 2012. \BibDash
-\newblock
-  ISBN:~\href{http://isbndb.com/search-all.html?kw=0262018020}{0262018020}.
-
-\bibitem{nigam1999using}
-\selectlanguageifdefined{english}
-\BibEmph{Nigam~Kamal, Lafferty~John, McCallum~Andrew}. Using maximum entropy
-  for text classification~// IJCAI99 workshop on machine learning for
-  information filtering. \BibDash
-\newblock 1999. \BibDash
-\newblock P.~61--67.
-
-\bibitem{Kontopoulos2013}
-\selectlanguageifdefined{english}
-{Ontology-based sentiment analysis of twitter posts}~/ Efstratios~Kontopoulos,
-  Christos~Berberidis, Theologos~Dergiades, Nick~Bassiliades~//
-  \href{http://dx.doi.org/10.1016/j.eswa.2013.01.001}{\BibEmph{Expert Systems
-  with Applications}}. \BibDash
-\newblock 2013. \BibDash
-\newblock Vol.~40, no.~10. \BibDash
-\newblock P.~4065--4074.
-
-\bibitem{pang2002thumbs}
-\selectlanguageifdefined{english}
-\BibEmph{Pang~Bo, Lee~Lillian, Vaithyanathan~Shivakumar}. Thumbs up?: sentiment
-  classification using machine learning techniques~// Proceedings of the ACL-02
-  conference on Empirical methods in natural language processing-Volume 10~/
-  Association for Computational Linguistics. \BibDash
-\newblock 2002. \BibDash
-\newblock P.~79--86.
-
-\bibitem{Church:1989:PWA:1075434.1075449}
-\selectlanguageifdefined{english}
-Parsing, Word Associations and Typical Predicate-argument Relations~/
-  Kenneth~Church, William~Gale, Patrick~Hanks, Donald~Hindle~// Proceedings of
-  the Workshop on Speech and Natural Language. \BibDash
-\newblock HLT 89. \BibDash
-\newblock Association for Computational Linguistics, 1989. \BibDash
-\newblock P.~75--81.
-
-\bibitem{porter2001snowball}
-\selectlanguageifdefined{english}
-\BibEmph{Porter~Martin~F}. Snowball: A language for stemming algorithms.
-  \BibDash
-\newblock 2001.
-
-\bibitem{qadir2013bootstrapped}
-\selectlanguageifdefined{english}
-\BibEmph{Qadir~Ashequl, Riloff~Ellen}. Bootstrapped Learning of Emotion
-  Hashtags\# hashtags4you~// \BibEmph{WASSA 2013}. \BibDash
-\newblock 2013. \BibDash
-\newblock P.~2.
-
-\bibitem{SaifHassanHeYulanAlani2012}
-\selectlanguageifdefined{english}
-\BibEmph{{Saif, Hassan He, Yulan Alani}~Harith}. {Semantic sentiment analysis
-  of twitter}~// The 11th International Semantic Web Conference. \BibDash
-\newblock 2012.
-
-\bibitem{scikit-learn}
-\selectlanguageifdefined{english}
-Scikit-learn: Machine Learning in {P}ython~/ F.~Pedregosa, G.~Varoquaux,
-  A.~Gramfort et~al.~// \BibEmph{Journal of Machine Learning Research}.
-  \BibDash
-\newblock 2011. \BibDash
-\newblock Vol.~12. \BibDash
-\newblock P.~2825--2830.
-
-\bibitem{tong2002support}
-\selectlanguageifdefined{english}
-\BibEmph{Tong~Simon, Koller~Daphne}. Support vector machine active learning
-  with applications to text classification~// \BibEmph{The Journal of Machine
-  Learning Research}. \BibDash
-\newblock 2002. \BibDash
-\newblock Vol.~2. \BibDash
-\newblock P.~45--66.
-
-\bibitem{turney2002thumbs}
-\selectlanguageifdefined{english}
-\BibEmph{Turney~Peter~D}. Thumbs up or thumbs down?: semantic orientation
-  applied to unsupervised classification of reviews~// Proceedings of the 40th
-  annual meeting on association for computational linguistics~/ Association for
-  Computational Linguistics. \BibDash
-\newblock 2002. \BibDash
-\newblock P.~417--424.
-
-\end{thebibliography}
