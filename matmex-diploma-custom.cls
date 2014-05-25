@@ -16,8 +16,9 @@
 \usepackage{xunicode}
 \usepackage{xltxtra}
 \usepackage{unicode-math}
+\newfontfamily{\cyrillicfonttt}{Liberation Mono}
 \setmainfont[Mapping=tex-text,Ligatures=TeX]{Times New Roman}
-\setmonofont[Ligatures=TeX]{Times New Roman}
+\setmonofont[Ligatures=TeX]{Liberation Mono}
 \setmathfont[Ligatures=TeX]{XITS Math}
 
 %% В XeLaTex заменой известного пакета babel является пакет polyglossia.
@@ -36,6 +37,8 @@
 %% Включение графических файлов
 %% we don't need to load graphicx since it will be loaded by xunicode (which is loaded by fontspec)
 \usepackage[titletoc]{appendix}
+
+\usepackage[font=small,margin=1.5cm]{caption}
 
 %% Эта команда добавляет отчеркнутое место для подписи после имени
 %% Аргументы: имя и пояснение под чертой (например, слово "подпись")
