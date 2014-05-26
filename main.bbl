@@ -19,6 +19,45 @@
 
 \refsection{0}
   \sortlist{entry}{nty}
+    \entry{balota2007english}{article}{}
+      \name{labelname}{10}{}{%
+        {{hash=164e5b6928666bfcf1f102aef237728e}{Balota}{B\bibinitperiod}{David\bibnamedelima A}{D\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=1bc8f04690da2b6567bf08a48a7e7877}{Yap}{Y\bibinitperiod}{Melvin\bibnamedelima J}{M\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=7e9c9b68d8efd490fa5c4f42e4301106}{Hutchison}{H\bibinitperiod}{Keith\bibnamedelima A}{K\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=e927624d2c278975d94a62c6e8600689}{Cortese}{C\bibinitperiod}{Michael\bibnamedelima J}{M\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=2d21500f50473a2eed4d5f85441a4620}{Kessler}{K\bibinitperiod}{Brett}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=5809f836c7af7525d6ab0f6faed9f595}{Loftis}{L\bibinitperiod}{Bjorn}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=397d889210d852ecda89c4e8da7d1d5c}{Neely}{N\bibinitperiod}{James\bibnamedelima H}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=cad4d23d272fec34c6aa4975f4a47764}{Nelson}{N\bibinitperiod}{Douglas\bibnamedelima L}{D\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=3ec53f8d0f2ccd05363ced0a72e5b6cf}{Simpson}{S\bibinitperiod}{Greg\bibnamedelima B}{G\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=2704679a0feed51b076508483fa2482e}{Treiman}{T\bibinitperiod}{Rebecca}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{10}{}{%
+        {{hash=164e5b6928666bfcf1f102aef237728e}{Balota}{B\bibinitperiod}{David\bibnamedelima A}{D\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=1bc8f04690da2b6567bf08a48a7e7877}{Yap}{Y\bibinitperiod}{Melvin\bibnamedelima J}{M\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=7e9c9b68d8efd490fa5c4f42e4301106}{Hutchison}{H\bibinitperiod}{Keith\bibnamedelima A}{K\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=e927624d2c278975d94a62c6e8600689}{Cortese}{C\bibinitperiod}{Michael\bibnamedelima J}{M\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=2d21500f50473a2eed4d5f85441a4620}{Kessler}{K\bibinitperiod}{Brett}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=5809f836c7af7525d6ab0f6faed9f595}{Loftis}{L\bibinitperiod}{Bjorn}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=397d889210d852ecda89c4e8da7d1d5c}{Neely}{N\bibinitperiod}{James\bibnamedelima H}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=cad4d23d272fec34c6aa4975f4a47764}{Nelson}{N\bibinitperiod}{Douglas\bibnamedelima L}{D\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=3ec53f8d0f2ccd05363ced0a72e5b6cf}{Simpson}{S\bibinitperiod}{Greg\bibnamedelima B}{G\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=2704679a0feed51b076508483fa2482e}{Treiman}{T\bibinitperiod}{Rebecca}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{19f65dc3e24a289664019e956ed38ba2}
+      \strng{fullhash}{e961d2711fc6eb6d3c9ab653ee622f13}
+      \field{sortinit}{B}
+      \field{labeltitle}{The English lexicon project}
+      \field{journaltitle}{Behavior Research Methods}
+      \field{number}{3}
+      \field{title}{The English lexicon project}
+      \field{volume}{39}
+      \field{year}{2007}
+      \field{pages}{445\bibrangedash 459}
+    \endentry
     \entry{bird2006nltk}{inproceedings}{}
       \name{labelname}{1}{}{%
         {{hash=a6ad72a87713a430f7335c5656da28f1}{Bird}{B\bibinitperiod}{Steven}{S\bibinitperiod}{}{}{}{}}%

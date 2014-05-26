@@ -1981,9 +1981,10 @@
     <bcf:citekey order="15">Celikyilmaz2010</bcf:citekey>
     <bcf:citekey order="16">qadir2013bootstrapped</bcf:citekey>
     <bcf:citekey order="17">field1988laplacian</bcf:citekey>
-    <bcf:citekey order="18">dbpedia-swj</bcf:citekey>
-    <bcf:citekey order="19">bird2006nltk</bcf:citekey>
-    <bcf:citekey order="20">porter2001snowball</bcf:citekey>
+    <bcf:citekey order="18">balota2007english</bcf:citekey>
+    <bcf:citekey order="19">dbpedia-swj</bcf:citekey>
+    <bcf:citekey order="20">bird2006nltk</bcf:citekey>
+    <bcf:citekey order="21">porter2001snowball</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="nty">
   <bcf:sorting>

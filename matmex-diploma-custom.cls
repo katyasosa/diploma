@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{matmex-diploma-custom}[2013/04/12 MatMex LaTeX diploma class]
-\def\my@fontsize{12pt}\def\my@baseclass{article}
+\def\my@fontsize{14pt}\def\my@baseclass{article}
 \DeclareOption{14pt}{\def\my@fontsize{14pt}\def\my@baseclass{extarticle}}
 \ProcessOptions\relax
 \LoadClass[a4paper,\my@fontsize]{\my@baseclass}
